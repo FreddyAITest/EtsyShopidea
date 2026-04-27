@@ -1,3 +1,20 @@
 __pycache__/
 *.log
 generate_packages.py
+# Large product PDFs (50MB+ each, too big for git)
+*_collection.pdf
+# Original full-size PDFs in products
+products/*/Product.pdf
+# Large source PNG images in theme directories (2480x3508, ~5MB each)
+victorian_botanical_ephemera/*.png
+dark_academia_gothic/*.png
+vintage_steampunk_apothecary/*.png
+shabby_chic_romantic/*.png
+rustic_nature_woodland/*.png
+vintage_travel_adventure/*.png
+celestial_moon_stars/*.png
+french_provincial_cottage/*.png
+vintage_kitchen_recipe/*.png
+art_nouveau_belle_epoque/*.png
+# Large source PNGs in Original_Bilder
+products/*/Original_Bilder/*.png
